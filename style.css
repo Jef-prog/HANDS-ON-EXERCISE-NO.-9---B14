@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: yellow;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ div h1{
+    background: white;
+    border-style: solid;
+    width: 33%;
+    height: 33%;
+    text-align: center;
+    margin: 5%;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main div {
+    background: white;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+p{
+    width: 350px;
+    height: 100px;
+}
